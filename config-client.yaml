@@ -2,7 +2,7 @@ server:
   port: 8013
 
 my:
-  value: "config client refreshed956"
+  value: "config client refreshed2
   
 spring:
   rabbitmq:
@@ -13,10 +13,9 @@ spring:
 
 management:
   endpoints:
-    web:
+    web: 
       exposure:
-        include: bus-refresh
-
+        include: "refresh"
 
 eureka:
   instance:
