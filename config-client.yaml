@@ -3,12 +3,19 @@ server:
 
 my:
   value: "config client refreshed2"
+  
+spring:
+  rabbitmq:
+    host: 192.168.0.2
+    port: 5672
+    username: nvtadmin
+    userpass: nvtpass  
 
 management:
   endpoints:
     web:
       exposure:
-        include: "refresh"
+        include: bus-refresh
 
 
 eureka:
