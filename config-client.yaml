@@ -2,7 +2,7 @@ server:
   port: 8013
 
 my:
-  value: "config client refreshed2"
+  value: "config client refreshed222232"
   
 spring:
   rabbitmq:
